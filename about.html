@@ -8,23 +8,33 @@
         body {
             font-family: Segoe UI Black;
             font-size: 20px;
-            margin: 30px;
-            background-image: url('Screenshot (76).png'); /* Replace with your image file path */
-            background-size:auto ;
-            background-position: auto;
+            color: #000;
+            margin: 30px; 
+            padding: 30px; 
+            background-image: url('Screenshot (76).png'); 
+            background-size: cover; 
+            background-position: center; 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+
+        main {
+            flex: 1;
         }
 
         footer {
-            position:fixed;
+            position: fixed;
             bottom: 0;
             width: 100%;
             text-align: center;
-            padding: 15px;
+            padding: 10px;
             background-color: #f4f4f4;
+            color: #333; 
         }
 
         footer p {
-            margin: 5px 0;
+            margin: 10px 0;
         }
 
         nav {
@@ -40,9 +50,6 @@
             margin: 0 10px;
         }
 
-        h2 {
-            color: #333;
-        }
     </style>
 </head>
 <body>

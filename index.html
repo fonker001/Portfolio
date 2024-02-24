@@ -3,27 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
+
     <style>
         body {
-            font-family: Segoe UI Black;
+            font-family: 'Segoe UI Black', sans-serif;
             font-size: 20px;
-            margin: 10px;
-            background-image: url('Screenshot (76).png');
-            background-size:cover ;
-            background-position: cover;
+            margin: 0; 
+            padding: 30px; 
+            background-image: url('Screenshot (76).png'); 
+            background-size: cover; 
+            background-position: center; 
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+
+        main {
+            flex: 1;
         }
 
         footer {
-            position:fixed;
+            position: fixed;
             bottom: 0;
             width: 100%;
             text-align: center;
             padding: 10px;
             background-color: #f4f4f4;
+            color: #333; 
         }
 
         footer p {
-            margin: 5px 0;
+            margin: 10px 0;
         }
 
         nav {
@@ -39,6 +50,9 @@
             margin: 0 10px;
         }
 
+        h2 {
+            color: #333;
+        }
     </style>
 </head>
 <body>
